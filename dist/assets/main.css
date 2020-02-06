@@ -1,0 +1,36 @@
+.Header {
+  background-color: #ffc0cb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.Header__logo {
+  color: #800080;
+  font-size: 18px;
+}
+.Header__button {
+  padding: 0.8em;
+  border: 1px solid #808080;
+  border-radius: 6px;
+}
+.Header__button a {
+  text-decoration: none;
+}
+.Header__button--success {
+  background-color: #00f;
+}
+.Header__button--success a {
+  color: #fff;
+}
+.Header__button--danger {
+  background-color: #f00;
+}
+.Header__button--danger a {
+  color: #000;
+}
+
+body {
+  background-color: #fff;
+}
+
